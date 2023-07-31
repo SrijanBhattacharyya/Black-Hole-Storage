@@ -5,10 +5,10 @@ def find_gcd (a: int, b: int) -> int:
     return a
 
 def find_gcd_of_n_numbers (numbers: list) -> int:
-    result = numbers [0]
+    ret = numbers [0]
     for num in numbers [1:]:
-        result = find_gcd (result, num)
-    return result
+        ret = find_gcd (ret, num)
+    return ret
 
 def main () -> None:
     try:
