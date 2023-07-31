@@ -19,7 +19,7 @@ def gcd_n (numbers: list) -> int:
     for factors in fact_list:
         for factor in set (factors):
             if factor in common_factors:
-                common_factors [factor] = min (common_factors[factor], factors.count (factor))
+                common_factors [factor] = min (common_factors [factor], factors.count (factor))
             else:
                 common_factors [factor] = factors.count (factor)
 
