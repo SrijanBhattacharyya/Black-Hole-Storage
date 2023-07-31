@@ -25,4 +25,4 @@ def main () -> None:
         print("Invalid input. Please enter valid integers.")
 
 if __name__ == "__main__":
-    main()
+    main ()
